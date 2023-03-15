@@ -10213,5 +10213,8 @@ border-color: transparent #dddddd transparent transparent;
   background-image: url("../img/view-white-crumpled-paper_1194-7544.avif");
   box-shadow: inset 0 0 0 2000px rgba(11,206,175, 0.7);  
   
-  background-size:cover;
+
+  /* background-image: url("../img/imgbin_climbing-wall-rock-climbing-equipment-soundproofing-noise-control-png.png"); */
+
+  /* background-size:cover; */
 }
