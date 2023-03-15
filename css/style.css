@@ -10000,11 +10000,15 @@ h6,
   content: '';
   position: absolute;
   width: 2px;
-  background: #EF233C;
+  background: #dc3545;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -1px;
+}
+
+.volunteer .timeline::after {
+  background: #17a2b8;
 }
 
 .experience .timeline .timeline-item {
@@ -10032,9 +10036,13 @@ h6,
   top: 48px;
   right: -8px;
   background: #ffffff;
-  border: 2px solid #EF233C;
+  border: 2px solid #dc3545;
   border-radius: 16px;
   z-index: 1;
+}
+
+.volunteer .timeline .timeline-item::after {
+  border: 2px solid #17a2b8;
 }
 
 .experience .timeline .timeline-item.right::after {
@@ -10064,10 +10072,14 @@ border-color: transparent #dddddd transparent transparent;
   top: 44px;
   font-size: 16px;
   font-weight: 600;
-  color: #EF233C;
+  color: #dc3545;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
+}
+
+.volunteer .timeline .timeline-date {
+  color: #17a2b8;
 }
 
 .experience .timeline .timeline-item.left .timeline-date {
