@@ -9803,7 +9803,37 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
+  font-weight: 800;
+}
+
+.navbar-light .navbar-nav .home:hover,
+.navbar-light .navbar-nav .home.active {
   color: #0BCEAF;
+}
+
+.navbar-light .navbar-nav .skill:hover,
+.navbar-light .navbar-nav .skill.active {
+  color: black;
+}
+
+.navbar-light .navbar-nav .experience:hover,
+.navbar-light .navbar-nav .experience.active  {
+  color: #dc3545;
+}
+
+.navbar-light .navbar-nav .education:hover,
+.navbar-light .navbar-nav .education.active {
+  color: #ffc107;
+}
+
+.navbar-light .navbar-nav .volunteering:hover,
+.navbar-light .navbar-nav .volunteering.active  {
+  color: #17a2b8;
+}
+
+.navbar-light .navbar-nav .contact:hover,
+.navbar-light .navbar-nav .contact.active {
+  color: #28a745;
 }
 
 @media (max-width: 991.98px) {
